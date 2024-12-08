@@ -1,0 +1,104 @@
+.fileValidationPage-container {
+  font-family: 'Dancing Script', cursive;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.fileValidationPage-header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #444;
+}
+
+.fileValidationPage-logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.fileValidationPage-title {
+  font-size: 2rem;
+  color: #6666ff;
+}
+
+.fileValidationPage-navigation {
+  background-color: #555;
+}
+
+.fileValidationPage-navigation ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.fileValidationPage-navigation li {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.fileValidationPage-active {
+  background-color: #7777ff;
+}
+
+.fileValidationPage-validation-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.fileValidationPage-validation-form label {
+  margin-bottom: 20px;
+  color: #6666ff;
+}
+
+.fileValidationPage-validation-form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #222;
+  border: 1px solid #6666ff;
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+}
+
+.fileValidationPage-error-message {
+  color: #66ff66;
+  margin-bottom: 20px;
+}
+
+.fileValidationPage-validation-form button {
+  padding: 10px 15px;
+  background-color: #5555cc;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Dancing Script', cursive;
+}
+
+.fileValidationPage-additional-links {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.fileValidationPage-additional-links a {
+  color: #6666ff;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.fileValidationPage-footer {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+.fileValidationPage-footer a {
+  color: #6666ff;
+  text-decoration: none;
+}

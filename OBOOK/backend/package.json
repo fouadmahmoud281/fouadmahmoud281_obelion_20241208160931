@@ -12,15 +12,17 @@
     "license": "ISC",
     "dependencies": {
         "sequelize": "6.10.3",
-        "mongoose": "latest",
+        "react": "latest",
         "express": "latest",
         "cors": "latest",
         "mysql": "latest",
-        "mysql2": "latest"
+        "mysql2": "latest",
+        "mongoose": "latest"
     },
     "devDependencies": {
+        "sequelize": "6.6.5",
+        "express": "latest",
         "sequelize-cli": "6.2.0",
-        "mongoose": "latest",
-        "express": "latest"
+        "mongoose": "latest"
     }
 }
