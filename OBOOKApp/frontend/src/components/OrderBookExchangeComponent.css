@@ -1,0 +1,122 @@
+.order-book-exchange {
+  font-family: 'Dancing Script', cursive;
+  background-color: #5555cc;
+  color: #6666ff;
+  padding: 20px;
+}
+
+.order-book-exchange .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.order-book-exchange .logo {
+  height: 50px;
+}
+
+.order-book-exchange .nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.order-book-exchange .nav-link {
+  color: #66ff66;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.order-book-exchange .nav-link:hover {
+  color: #77ff77;
+}
+
+.order-book-exchange .main-content {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.order-book-exchange .main-heading {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.order-book-exchange .exchange-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.order-book-exchange .form-group {
+  margin-bottom: 15px;
+}
+
+.order-book-exchange .form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+.order-book-exchange .form-input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #6666ff;
+  border-radius: 5px;
+  background-color: #7777ff;
+  color: #ffffff;
+}
+
+.order-book-exchange .submit-button {
+  background-color: #66ff66;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #5555cc;
+}
+
+.order-book-exchange .submit-button:hover {
+  background-color: #77ff77;
+}
+
+.order-book-exchange .additional-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.order-book-exchange .additional-link {
+  color: #66ff66;
+  text-decoration: none;
+}
+
+.order-book-exchange .additional-link:hover {
+  color: #77ff77;
+}
+
+.order-book-exchange .footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #4444aa;
+  color: #6666ff;
+}
+
+.order-book-exchange .footer-text {
+  margin-bottom: 10px;
+}
+
+.order-book-exchange .footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.order-book-exchange .footer-link {
+  color: #66ff66;
+  text-decoration: none;
+}
+
+.order-book-exchange .footer-link:hover {
+  color: #77ff77;
+}
