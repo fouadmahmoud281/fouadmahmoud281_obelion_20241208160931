@@ -1,0 +1,94 @@
+.RetentionManagementPage-retention-management-page {
+  background-color: #5555cc;
+  color: #6666ff;
+  font-family: 'Dancing Script', cursive;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.RetentionManagementPage-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.RetentionManagementPage-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.RetentionManagementPage-title {
+  font-size: 2em;
+  color: #7777ff;
+}
+
+.RetentionManagementPage-navigation-tabs ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.RetentionManagementPage-nav-tab {
+  cursor: pointer;
+  color: #66ff66;
+}
+
+.RetentionManagementPage-main-content {
+  background-color: #4444bb;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.RetentionManagementPage-retention-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.RetentionManagementPage-form-label {
+  font-size: 1.2em;
+  color: #7777ff;
+}
+
+.RetentionManagementPage-form-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.RetentionManagementPage-primary-action-button {
+  padding: 10px 20px;
+  background-color: #66ff66;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #5555cc;
+  transition: background-color 0.3s;
+}
+
+.RetentionManagementPage-primary-action-button:hover {
+  background-color: #55dd55;
+}
+
+.RetentionManagementPage-additional-links .RetentionManagementPage-additional-link {
+  color: #66ff66;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.RetentionManagementPage-footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #7777ff;
+}
+
+.RetentionManagementPage-footer-link {
+  color: #66ff66;
+  text-decoration: none;
+  margin-left: 10px;
+}
